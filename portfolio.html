@@ -5,55 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" href="" title="" type="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-
-        <a href="https://winjher.github.io/goit-markup-hw-01/" class="logo-webstudio">
+    <header class="header">
+        <a href="https://winjher.github.io/goit-markup-hw-02/" class="logo-webstudio">
             STUDIO
         </a>
-
         <nav>
-        <div id="" class="nav-container">
             <ul class="nav-menu">
-                <li class="nav-menu-link">
-                    <a href="https://github.com/winjher/goit-markup-hw-02">Studio</a>
+                <li class="nav-menu-list-item active">
+                    <a class="nav-menu-link" href="https://winjher.github.io/goit-markup-hw-02" >Studio</a>
                 </li>
-                <li class="nav-menu-link">
-                    <a href="./portfolio.html" >Profile</a>
+                <li class="nav-menu-list-item active">
+                    <a class="nav-menu-link" href="./portfolio.html">Profile</a>
                 </li>
-                <li class="nav-menu-link">
-                    <a href="">Contacts</a>
+                <li class="nav-menu-list-item active">
+                    <a class="nav-menu-link" href="/">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address>
             <ul class="address-menu">
                 <li>
-                    <a href="mailto:" class="address-email-link">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
                 </li>
                  <li>
-                    <a href="tel" class="address-telephone-link">110001111111</a>
+                    <a href="tel:110001111111" class="address-link">110001111111</a>
                 </li>
             </ul>
         </address>
-        </div>
     </header>
-    <main>
-        <section class="section-services">
 
-            <button class="filter-btn active">All</button>
-            <button class="filter-btn">Web Site</button>
-            <button class="filter-btn">App</button>
-            <button class="filter-btn">Design</button>
-            <button class="filter-btn">Marketing</button>
+    <main>
+        <section>
+            <ul class="services-filter-list">
+                <li class="services-filter-link active">
+                    <button type="button" class="filter-btn active">All</button>
+                </li>
+                <li class="services-filter-link">
+                    <button type="button" class="filter-btn">Web Site</button>
+                </li>
+                <li class="services-filter-link">
+                    <button type="button" class="filter-btn">App</button>
+                </li>
+                <li class="services-filter-link">
+                    <button type="button" class="filter-btn">Design</button>
+                </li>
+                <li class="services-filter-link">
+                    <button type="button" class="filter-btn">Marketing</button>
+                </li>
+            </ul>
         </section>
-        <section class="section-application">
+        <section>
             <ul class="section-application-list">
                 <li class="section-application-item">
                     <img src="./images/banking.jpg" alt="" width="360">
@@ -69,7 +79,7 @@
                 </li>
             </ul>
         </section>
-        <section class="section-courses">
+        <section>
             <ul class="section-course-list">
                 <li class="section-course-item">
                     <img src="./images/taxiservice.jpg" alt="" width="360">
@@ -88,8 +98,7 @@
                 </li>
             </ul>
         </section>
-
-        <section class="section-webdesign">
+        <section>
             <ul class="section-webdesign-list">
                 <li class="section-webdesign-item">
                     <img src="./images/story_concept.jpg" alt="Instagram Stories Concept" width="264">
