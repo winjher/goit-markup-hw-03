@@ -30,6 +30,7 @@
 /* added from HW3 global style reset */
 p, h1, h2, h3, h4, h5, h6,ul {
     overflow-wrap: break-word;
+    text-align: center;
   }
 
   /* added from HW3 padding 120px push the content to center */
@@ -247,6 +248,17 @@ button {
 .section-features-item {
     color:var(--color-slate);
 }
+
+/* portfolio */
+.services-filter-list,
+.section-application-list,
+.section-course-list,
+.section-webdesign-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+}
+
 
 footer {
     width: 1440px;
