@@ -77,8 +77,9 @@ address,
     margin-top: auto;
     margin-bottom: auto;
     column-gap: 40px;
-    
+    margin-right: 40px;
 }
+
 
 /* a[href="/"]{
     color: var(--color-iris);
