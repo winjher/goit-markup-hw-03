@@ -26,8 +26,15 @@
 }
 
 /* added from HW3 global style reset */
-p, h1, h2, h3, h4, h5, h6,ul {
-    text-align:left;
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,ul {
+    margin: 0px;
+    padding: 0px;
   }
 
   /* added from HW3 padding 120px push the content to center */
@@ -58,6 +65,19 @@ button {
     border: 1px;
     background-color: var(--color-white);
     padding: 24px 0;
+    
+}
+
+
+/* HW3 */
+address,
+.main-header-nav{
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    column-gap: 40px;
+    
 }
 
 /* a[href="/"]{
@@ -83,15 +103,14 @@ button {
     text-align: left;
 }
 
-.logo-webstudio,.nav-menu-link,.address-link{
-    display: inline-block;
-}
+
 .nav-menu-link{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    
 }
 
 .nav-menu-link:active{
@@ -127,6 +146,7 @@ button {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    
 }
 
 .address-link:active{
