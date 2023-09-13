@@ -24,10 +24,8 @@
     margin: 0 auto;
 }
 
-
 /* added from HW3 global style reset */
 p, h1, h2, h3, h4, h5, h6,ul {
-    overflow-wrap: break-word;
     text-align: center;
   }
 
@@ -85,7 +83,7 @@ button {
 }
 
 .logo-webstudio,.nav-menu,.address-menu{
-    display: inline-block;
+    display: flex;
 }
 
 .nav-menu-link{
@@ -108,11 +106,17 @@ button {
     color: var(--color-iris);
 }
 
+/* added from HW3 flexbox and gap of 40px*/
 .nav-menu,
 .address-menu,
 .section-features-list,
 .section-gallery-list,
-.ourteam-list {
+.ourteam-list,
+/* portfolio */
+.services-filter-list,
+.section-application-list,
+.section-course-list,
+.section-webdesign-list {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -197,15 +201,6 @@ button {
     cursor: pointer;
 }
 
-/* added from HW3 flexbox and gap of 40px*/
-.section-features-list,
-.section-gallery-list,
-.ourteam-list{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
-
 .section-gallery-title,.our-team-title{
     color: var(--color-navyblue);
     font-family: Roboto;
@@ -230,7 +225,7 @@ button {
 
 }
 
-.our-team-name
+.our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
 }
@@ -239,17 +234,6 @@ button {
 .section-features-item {
     color:var(--color-slate);
 }
-
-/* portfolio */
-.services-filter-list,
-.section-application-list,
-.section-course-list,
-.section-webdesign-list {
-    list-style: none;
-    display: inline-flex;
-    gap: 40px;
-}
-
 
 footer {
     width: 1440px;
