@@ -68,6 +68,11 @@ button {
     
 }
 
+.header-container{
+    text-align: center;
+
+}
+
 /* HW3 */
 address,
 .main-header-nav{
@@ -77,6 +82,7 @@ address,
     margin-bottom: auto;
     column-gap: 40px;
     margin-right: 40px;
+    border: 1px
 }
 
 /* a[href="/"]{
@@ -162,6 +168,10 @@ address,
     text-align: center;
 }
 
+.container-hero{
+
+}
+
 .service-hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -169,7 +179,9 @@ address,
     letter-spacing: 0.02em;
     color: var(--color-white);
     /* HW3 */
-    width: 496px;   
+    width: 496px;
+    margin-left: 342px;
+    padding: 40px 0px;
 }
 
 .service-button-cta {
@@ -231,6 +243,7 @@ address,
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
+    padding: 40px 0px;
 }
 
 .section-features-list{
@@ -238,7 +251,7 @@ address,
 }
 
 .section-item-gallery {
-    width: 1128px;
+    width: 1158px;
     height: 412px;
     top: 1016px;
     left: 156px;
@@ -251,14 +264,32 @@ address,
 
 }
 
+.container-ourteam{
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.section-features-item-title,
+.our-team-name,.services-filter-list{
+    padding: 8px 0px;
+}
+
+.section-application-list{
+    padding: ;
+}
 .our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
+    
 }
 
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
+}
+.container-footer{
+
 }
 
 footer {
@@ -288,7 +319,9 @@ footer {
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--color-cloud);
+    width: 264px;
 }
 .text-footer:hover{
      color: var(--color-iris);
+     
 }
