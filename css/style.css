@@ -167,9 +167,9 @@ address,
     top: 72px;
     text-align: center;
 }
-
+.container-footer
 .container-hero{
-
+    margin: 0 auto
 }
 
 .service-hero-title {
