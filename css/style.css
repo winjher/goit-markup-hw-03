@@ -24,9 +24,7 @@
     margin: 0 auto;
 }
 
-.text-center{
-    align-content: center;
-}
+
 /* added from HW3 global style reset */
 p, h1, h2, h3, h4, h5, h6,ul {
     overflow-wrap: break-word;
@@ -60,6 +58,7 @@ button {
     border-bottom: 1px solid #E7E9FC;
     border: 1px;
     background-color: var(--color-white);
+    padding: 24px 24px;
 }
 
 /* a[href="/"]{
@@ -85,10 +84,8 @@ button {
     text-align: left;
 }
 
-.nav-menu{
-    list-style: none;
-    display: flex;
-    gap: 40px;
+.logo-webstudio,.nav-menu,.address-menu{
+    display: inline-block;
 }
 
 .nav-menu-link{
@@ -111,9 +108,13 @@ button {
     color: var(--color-iris);
 }
 
-.address-menu{
-    list-style: none;
+.nav-menu,
+.address-menu,
+.section-features-list,
+.section-gallery-list,
+.ourteam-list {
     display: flex;
+    list-style: none;
     gap: 40px;
 }
 
@@ -197,18 +198,8 @@ button {
 }
 
 /* added from HW3 flexbox and gap of 40px*/
-.section-features-list{
-    list-style: none;
-    display: flex;
-    gap: 40px;
-}
-
-.section-gallery-list{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
-
+.section-features-list,
+.section-gallery-list,
 .ourteam-list{
     display: flex;
     list-style: none;
