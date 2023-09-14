@@ -158,7 +158,7 @@ address,
 }
 
 .address-link:hover {
-    color: var(--color-slate);
+    color: var(--color-navyblue);
 }
 
 .main-hero {
@@ -221,6 +221,7 @@ address,
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
+    color: var(--color-iris)
 }
 
 .filter-btn:hover{
@@ -234,6 +235,7 @@ address,
 .filter-btn:active{
     background: var(--color-ocean);
     cursor: pointer;
+    color: var(--color-white)
 }
 
 .section-gallery-title,.our-team-title{
@@ -267,7 +269,6 @@ address,
 
 .container-ourteam{
     text-align: center;
-
     padding: 0px 0px 0px 0px;
 }
 
@@ -277,7 +278,7 @@ address,
 }
 
 .section-application-list{
-    padding: ;
+    padding: 40px;
 }
 .our-team-name,
 .section-features-list{
@@ -289,8 +290,10 @@ address,
 .section-features-item {
     color:var(--color-slate);
 }
-.container-footer{
-
+.container-footer
+.container-hero{
+    margin: 0 auto;
+    width: 1440px;
 }
 
 footer {
@@ -325,4 +328,17 @@ footer {
 .text-footer:hover{
      color: var(--color-iris);
      
+}
+.container-ourteam{
+    background: var(--color-cloud);
+    width: 1440px;
+    height: 732px;
+    top: 1548px;
+    border: 1px solid #E7E9FC;
+
+}
+.card{
+    background-color: var(--color-white);
+    border: 1px solid #E7E9FC;
+    border-radius: 0px 4px 0px 0px;
 }
