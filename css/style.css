@@ -290,6 +290,13 @@ address,
     margin: 0 auto;
      width: 1440px;
 }
+/* HW3 */
+.our-team-name{
+    padding-top: 32px;
+}
+.ourteam-work{
+    padding-bottom: 32px;
+}
 
 footer {
     width: 1440px;
