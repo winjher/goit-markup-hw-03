@@ -287,7 +287,8 @@ address,
 }
 .container-footer
 .container-hero{
-    margin: 0 auto
+    margin: 0 auto;
+     width: 1440px;
 }
 
 footer {
