@@ -298,6 +298,14 @@ address,
     padding-bottom: 32px;
 }
 
+/* HW3 card container*/
+.container-ourteam{
+    background: var(--color-cloud);
+    width: 1440px;
+    height: 732px;
+    border: 1px solid #E7E9FC;
+    align-items: center;
+}
 footer {
     width: 1440px;
     height: 312px;
