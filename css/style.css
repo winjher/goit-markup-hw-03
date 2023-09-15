@@ -22,7 +22,9 @@
 .container{
     width: 1158px;
     margin: 0 auto;
-
+    text-align: center;
+    justify-content: center;
+    
 }
 
 /* added from HW3 global style reset */
@@ -40,12 +42,14 @@ h6,ul {
   /* added from HW3 padding 120px push the content to center */
 .section{
     padding: 120px 0px;
+    text-align: center;
 }
 
 body{
     font-family: 'Opens Sans' ,san-serif;
     font-family: Roboto;
 }
+
 
 a {
     text-decoration: none;
@@ -134,16 +138,34 @@ address,
 .address-menu,
 .section-features-list,
 .section-gallery-list,
-.ourteam-list,
+.ourteam-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
 /* portfolio */
 .services-filter-list,
 .section-application-list,
 .section-course-list,
-.section-webdesign-list {
+.section-webdesign-list{
     display: flex;
     list-style: none;
     gap: 40px;
+    
 }
+
+.button-container{
+    align-items: center;
+}
+.services-filter-list,
+.section-application-item,
+.section-course-item,
+.section-webdesign-item{
+    text-align: left;
+}
+
 
 .address-link{
     font-size: 16px;
@@ -168,7 +190,7 @@ address,
     top: 72px;
     text-align: center;
 }
-.container-footer
+
 .container-hero{
     margin: 0 auto
 }
@@ -249,8 +271,10 @@ address,
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
-    padding: 40px 0px;
+    margin: 80px;
+    margin-bottom: 40px;
 }
+
 
 .section-features-list{
     text-align: left;
@@ -267,32 +291,47 @@ address,
     width: 1440px;
     height: 732px;
     top: 1548px;    
-
+    
 }
 
 .container-ourteam{
     text-align: center;
-    padding: 0px 0px 0px 0px;
-}
-
-.section-features-item-title,
-.our-team-name,.services-filter-list{
-    padding: 8px 0px;
-}
-
-.section-application-list{
-    padding: 40px;
-}
-.our-team-name,
-.section-features-list{
-    color:var(--color-navyblue);
+    padding: 0px, 0px, 32px, 0px;
     
 }
 
+.section-features-item-title,
+.our-team-name{
+    padding: 8px 0px;
+    align-items: center;
+}
+
+.services-filter-list,.section-course-list,.section-webdesign-list{
+    padding: 40px 0px;
+
+}
+.section-application-list{
+    padding: 40px;
+}
+
+.section-gallery,.section-ourteam{
+    align-content: center;
+
+}
+.our-team-name,
+.section-features-list{
+    color:var(--color-navyblue); 
+    
+}
+
+.container, .container-ourteam{
+    align-items: center;
+}
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
 }
+<<<<<<< Updated upstream
 .container-footer
 .container-hero{
     margin: 0 auto;
@@ -305,6 +344,10 @@ address,
 .ourteam-work{
     padding-bottom: 32px;
 }
+=======
+
+
+>>>>>>> Stashed changes
 
 /* HW3 card container*/
 .container-ourteam{
@@ -319,6 +362,7 @@ footer {
     height: 312px;
     top: 2280px;
     background: var(--color-navyblue);
+    
 }
 
 .text-web{
@@ -331,7 +375,6 @@ footer {
     color: var(--color-cloud);
     text-decoration: none;
     font-family: Raleway;
-
 }
 
 .text-footer{
@@ -343,6 +386,7 @@ footer {
     color: var(--color-cloud);
     width: 264px;
 }
+
 .text-footer:hover{
      color: var(--color-iris);  
 }
@@ -373,16 +417,29 @@ footer {
 .ourteam-work{
     padding-bottom: 32px;
 }
+/* HW3 card container*/
 .container-ourteam{
     background: var(--color-cloud);
     width: 1440px;
     height: 732px;
-    top: 1548px;
     border: 1px solid #E7E9FC;
+
 
 }
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
-    border-radius: 0px 4px 0px 0px;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* HW3 */
+.our-team-name{
+    padding-top: 32px;
+}
+.ourteam-work{
+    padding-bottom: 32px;
 }
