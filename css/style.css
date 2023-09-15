@@ -400,7 +400,7 @@ footer{
     padding-right: 0px;
     padding-bottom: 40px;
     padding-left: 0px;
-    margin-right: 60px;
+    margin-right: 80px;
     background-color: var(--color-cloud);
 }
 
@@ -484,7 +484,7 @@ footer{
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-left:120px;
+    margin-left:130px;
 }
 
 
