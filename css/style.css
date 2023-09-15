@@ -74,7 +74,7 @@ button {
 
 .header-container{
     text-align: center;
-
+    border: 1px
 }
 
 /* HW3 */
@@ -82,11 +82,6 @@ address,
 .main-header-nav{
     display: inline-block;
     margin-left: 140px;
-    margin-top: auto;
-    margin-bottom: auto;
-    column-gap: 40px;
-    
-    border: 1px
 }
 
 /* a[href="/"]{
@@ -281,7 +276,9 @@ address,
     
 }
 
-
+.section-features-item-description{
+    padding-top: 8px;
+}
 .services-filter-list,.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
 
@@ -300,19 +297,13 @@ address,
     
 }
 
-.container, .container-ourteam{
-    align-items: center;
-}
+
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
 }
 
-.container-footer
-.container-hero{
-    margin: 0 auto;
-    width: 1440px;
-}
+
 /* HW3 */
 .our-team-name{
     padding-top: 32px;
@@ -320,17 +311,14 @@ address,
 .ourteam-work{
     padding-top: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     padding-left: 40px;
 }
 
 /* HW3 card container*/
 .container-ourteam{
     background: var(--color-cloud);
-    width: 1440px;
-    height: 732px;
     border: 1px solid #E7E9FC;
-    align-items: center;
 }
 footer {
     width: 1440px;
@@ -339,9 +327,11 @@ footer {
     background: var(--color-navyblue);
     
 }
-.text-web,.text-studio{
+.container-footer, .text-footer{
     text-align: left;
+    
 }
+
 .text-web{
     color: var(--color-iris);
     text-decoration: none;
@@ -362,21 +352,14 @@ footer {
     text-align: left;
     color: var(--color-cloud);
     width: 264px;
+    padding-top: 8px;
 }
 
 .text-footer:hover{
      color: var(--color-iris);  
 }
 
-/* HW3 card container*/
-.container-ourteam{
-    background: var(--color-cloud);
-    width: 1440px;
-    height: 732px;
-    border: 1px solid #E7E9FC;
-    align-items: center;
 
-}
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
@@ -387,16 +370,17 @@ footer {
     align-items: center;
 }
 
-/* HW3 */
+/* HW3  */
 .our-team-name{
-    padding: 32px 0px 0px 0px;
+    padding: 32px 0px 8px 0px;
+    
 }
 .ourteam-work{
     padding: 0px 0px 32px 0px;
+    
 }
 
-
-/* .our-team-name{
+/* .our-team-name same as top{
     padding-top: 32px;
 }
 .ourteam-work{
@@ -409,16 +393,16 @@ footer {
     width: 1440px;
     height: 732px;
     border: 1px solid #E7E9FC;
-
-
+    
 }
+
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 8px 8px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    
+
 
 }
 
@@ -457,9 +441,7 @@ footer {
     padding-left: 0px;
 }
 
-.container-footer, .text-footer{
-    text-align: left;
-}
+
 
 /* portfolio */
 .services-filter-list,
