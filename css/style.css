@@ -81,11 +81,11 @@ button {
 address,
 .main-header-nav{
     display: inline-block;
-    margin-left: 130px;
+    margin-left: 140px;
     margin-top: auto;
     margin-bottom: auto;
     column-gap: 40px;
-    margin-right: 40px;
+    
     border: 1px
 }
 
@@ -263,6 +263,12 @@ address,
     color: var(--color-white);
 }
 
+.section-gallery-title{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+    padding-left: 0px; 
+}
 .section-gallery-title,.our-team-title{
     color: var(--color-navyblue);
     font-family: Roboto;
@@ -294,17 +300,8 @@ address,
     
 }
 
-.container-ourteam{
-    text-align: center;
-    padding: 0px, 0px, 32px, 0px;
-    
-}
 
-.section-features-item-title,
-.our-team-name{
-    padding: 8px 0px;
-    align-items: center;
-}
+
 
 .services-filter-list,.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
@@ -358,8 +355,8 @@ address,
 }
 footer {
     width: 1440px;
-    height: 312px;
-    top: 2280px;
+    /* height: 312px; */
+    /* top: 2280px; */
     background: var(--color-navyblue);
     
 }
@@ -476,5 +473,9 @@ footer {
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 80px;
-    padding-left: 140px;
+    padding-left: 142px;
+}
+
+.container-footer, .text-footer{
+    text-align: left;
 }
