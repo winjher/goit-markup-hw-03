@@ -301,8 +301,6 @@ address,
 }
 
 
-
-
 .services-filter-list,.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
 
@@ -410,11 +408,20 @@ footer {
 
 /* HW3 */
 .our-team-name{
+    padding: 32px 0px 0px 0px;
+}
+.ourteam-work{
+    padding: 0px 0px 32px 0px;
+}
+
+
+/* .our-team-name{
     padding-top: 32px;
 }
 .ourteam-work{
     padding-bottom: 32px;
-}
+} */
+
 /* HW3 card container*/
 .container-ourteam{
     background: var(--color-cloud);
@@ -438,17 +445,10 @@ footer {
 .ourteam-list{
     padding-top: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     padding-left: 120px;
-
 }
 
-.our-team-name{
-    padding-top: 32px;
-}
-.ourteam-work{
-    padding-bottom: 32px;
-}
 .services-filter-list{
     padding-top: 40px;
     padding-right: 40px;
