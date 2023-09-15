@@ -189,7 +189,7 @@ address,
 
 .service-button-cta:hover{
     cursor: pointer;
-    color: var(--color-navyblue);
+    color: var(--color-white);
     background-color: var(--color-iris);
 }
 
