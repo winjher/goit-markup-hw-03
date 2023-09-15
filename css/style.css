@@ -42,7 +42,7 @@ h6,ul {
   /* added from HW3 padding 120px push the content to center */
 .section{
     padding: 120px 0px;
-    text-align: center;
+
 }
 
 body{
@@ -144,28 +144,6 @@ address,
     gap: 40px;
     align-items: center;
 }
-
-/* portfolio */
-.services-filter-list,
-.section-application-list,
-.section-course-list,
-.section-webdesign-list{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    
-}
-
-.button-container{
-    align-items: center;
-}
-.services-filter-list,
-.section-application-item,
-.section-course-item,
-.section-webdesign-item{
-    text-align: left;
-}
-
 
 .address-link{
     font-size: 16px;
@@ -269,6 +247,7 @@ address,
     padding-bottom: 80px;
     padding-left: 0px; 
 }
+
 .section-gallery-title,.our-team-title{
     color: var(--color-navyblue);
     font-family: Roboto;
@@ -277,10 +256,12 @@ address,
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 80px;
     margin-bottom: 40px;
 }
 
+.our-team-title{
+    margin: 80px;
+}
 
 .section-features-list{
     text-align: left;
@@ -326,7 +307,7 @@ address,
 .section-features-item {
     color:var(--color-slate);
 }
-<<<<<<< Updated upstream
+
 .container-footer
 .container-hero{
     margin: 0 auto;
@@ -477,5 +458,22 @@ footer {
 }
 
 .container-footer, .text-footer{
+    text-align: left;
+}
+
+/* portfolio */
+.services-filter-list,
+.section-application-list,
+.section-course-list,
+.section-webdesign-list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+.section-application-item,
+.section-course-item,
+.section-webdesign-item{
     text-align: left;
 }
