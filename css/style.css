@@ -138,7 +138,7 @@ address,
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-left:120px;
+    /* margin-left:120px; */
 }
 
 .address-link{
@@ -367,6 +367,7 @@ footer{
 .ourteam-work{
     padding-top: 8px;
     padding-bottom: 8px;
+}
 /* .our-team-name same as top{
     padding-top: 32px;
 }
