@@ -118,7 +118,7 @@ address,
 }
 
 .nav-menu-link:active{
-    color: var(--color-slate);
+    color: var(--color-ocean);
 }
 
 .nav-menu-link:hover{
@@ -226,14 +226,17 @@ address,
 
 .filter-btn:hover{
     background: var(--color-ocean)
+    color: var(--color-white)
 }
 
 .filter-btn:focus{
     background: var(--color-ocean)
+    color: var(--color-white)
 }
 
 .filter-btn:active{
     background: var(--color-ocean);
+    color: var(--color-white)
     cursor: pointer;
     color: var(--color-white)
 }
@@ -295,7 +298,22 @@ address,
     margin: 0 auto;
     width: 1440px;
 }
+/* HW3 */
+.our-team-name{
+    padding-top: 32px;
+}
+.ourteam-work{
+    padding-bottom: 32px;
+}
 
+/* HW3 card container*/
+.container-ourteam{
+    background: var(--color-cloud);
+    width: 1440px;
+    height: 732px;
+    border: 1px solid #E7E9FC;
+    align-items: center;
+}
 footer {
     width: 1440px;
     height: 312px;
@@ -326,8 +344,34 @@ footer {
     width: 264px;
 }
 .text-footer:hover{
-     color: var(--color-iris);
-     
+     color: var(--color-iris);  
+}
+
+/* HW3 card container*/
+.container-ourteam{
+    background: var(--color-cloud);
+    width: 1440px;
+    height: 732px;
+    border: 1px solid #E7E9FC;
+    align-items: center;
+
+}
+.card{
+    background-color: var(--color-white);
+    border: 1px solid #E7E9FC;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+/* HW3 */
+.our-team-name{
+    padding-top: 32px;
+}
+.ourteam-work{
+    padding-bottom: 32px;
 }
 .container-ourteam{
     background: var(--color-cloud);
