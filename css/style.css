@@ -123,6 +123,7 @@ address,
     color: var(--color-ocean);
 }
 
+.address-link:hover,
 .nav-menu-link:hover{
     color: var(--color-iris);
 }
