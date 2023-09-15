@@ -243,24 +243,24 @@ address,
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
-    color: var(--color-iris)
+    color: var(--color-iris);
 }
 
 .filter-btn:hover{
-    background: var(--color-ocean)
-    color: var(--color-white)
+    background: var(--color-ocean);
+    color: var(--color-white);
 }
 
 .filter-btn:focus{
-    background: var(--color-ocean)
-    color: var(--color-white)
+    background: var(--color-ocean);
+    color: var(--color-white);
 }
 
 .filter-btn:active{
     background: var(--color-ocean);
-    color: var(--color-white)
+    color: var(--color-white);
     cursor: pointer;
-    color: var(--color-white)
+    color: var(--color-white);
 }
 
 .section-gallery-title,.our-team-title{
@@ -347,10 +347,6 @@ address,
     padding-bottom: 40px;
     padding-left: 40px;
 }
-=======
-
-
->>>>>>> Stashed changes
 
 /* HW3 card container*/
 .container-ourteam{
@@ -367,7 +363,9 @@ footer {
     background: var(--color-navyblue);
     
 }
-
+.text-web,.text-studio{
+    text-align: left;
+}
 .text-web{
     color: var(--color-iris);
     text-decoration: none;
@@ -440,9 +438,43 @@ footer {
 }
 
 /* HW3 */
+.ourteam-list{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+
+}
+
 .our-team-name{
     padding-top: 32px;
 }
 .ourteam-work{
     padding-bottom: 32px;
+}
+.services-filter-list{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 300px; 
+}
+.section-application-list{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px; 
+}
+
+
+.section-course-list{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+.section-webdesign-list{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 140px;
 }
