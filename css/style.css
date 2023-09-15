@@ -359,15 +359,7 @@ footer{
      color: var(--color-iris);  
 }
 
-.card{
-    background-color: var(--color-white);
-    border: 1px solid #E7E9FC;
-    border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
+
 
 /* HW3  */
 .our-team-name{
@@ -384,15 +376,6 @@ footer{
 .ourteam-work{
     padding-bottom: 32px;
 } */
-
-/* HW3 card container*/
-.container-ourteam{
-    background: var(--color-cloud);
-    width: 1440px;
-    height: 732px;
-    border: 1px solid #E7E9FC;
-    
-}
 
 .card{
     background-color: var(--color-white);
