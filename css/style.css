@@ -453,8 +453,8 @@ footer {
 .section-webdesign-list{
     padding-top: 40px;
     padding-right: 40px;
-    padding-bottom: 80px;
-    padding-left: 142px;
+    padding-bottom: 40px;
+    padding-left: 0px;
 }
 
 .container-footer, .text-footer{
