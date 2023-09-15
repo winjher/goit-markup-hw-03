@@ -400,7 +400,7 @@ footer{
     padding-right: 0px;
     padding-bottom: 40px;
     padding-left: 0px;
-    margin-right: 40px;
+    margin-right: 60px;
     background-color: var(--color-cloud);
 }
 
@@ -449,7 +449,7 @@ footer{
 
 .services-filter-list{
     padding-top: 40px;
-    padding-right: 40px;
+    padding-right: 32px;
     padding-bottom: 0px;
     padding-left: 250px;
 }
