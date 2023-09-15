@@ -291,6 +291,11 @@ address,
     align-content: center;
 
 }
+
+.section-ourteam{
+    padding-bottom: 0px;
+}
+
 .our-team-name,
 .section-features-list{
     color:var(--color-navyblue); 
@@ -427,7 +432,6 @@ footer {
     padding-left: 0px; 
 }
 
-
 .section-course-list{
     padding-top: 40px;
     padding-right: 40px;
@@ -440,8 +444,6 @@ footer {
     padding-bottom: 40px;
     padding-left: 0px;
 }
-
-
 
 /* portfolio */
 .services-filter-list,
@@ -458,4 +460,9 @@ footer {
 .section-course-item,
 .section-webdesign-item{
     text-align: left;
+}
+
+.service-course{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
