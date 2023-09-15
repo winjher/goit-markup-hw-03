@@ -74,7 +74,6 @@ button {
 
 .header-container{
     text-align: center;
-    border: 1px;
     width: 1440px;
     border: 0px, 0px, 1px, 0px;
     border-bottom: 1px solid #E7E9FC;
@@ -162,14 +161,7 @@ address,
 
 .main-hero {
     background-color: var(--color-navyblue);
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-    text-align: center;
-}
-
-.container-hero{
-    margin: 0 auto
+    /* width: 1440px; */
 }
 
 .service-hero-title {
@@ -181,7 +173,7 @@ address,
     /* HW3 */
     width: 496px;
     margin-left: 342px;
-    padding: 40px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .service-button-cta {
@@ -210,11 +202,10 @@ address,
 }
 
 .filter-btn{
-    height: Hug (48px);
+ 
     border-radius: 4px;
     /* HW3 */
     width: Hug (116px);
-    border: 1px;
     padding: 12px 24px 12px 24px;
     background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
@@ -330,7 +321,7 @@ address,
     border: 1px solid #E7E9FC;
 }
 footer {
-    width: 1440px;
+    /* width: 1440px; */
     /* height: 312px; */
     /* top: 2280px; */
     background: var(--color-navyblue);
@@ -338,7 +329,6 @@ footer {
 }
 .container-footer, .text-footer{
     text-align: left;
-    
 }
 
 .text-web{
@@ -368,7 +358,6 @@ footer {
      color: var(--color-iris);  
 }
 
-
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
@@ -386,7 +375,6 @@ footer {
 }
 .ourteam-work{
     padding: 0px 0px 32px 0px;
-    
 }
 
 /* .our-team-name same as top{
