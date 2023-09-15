@@ -173,7 +173,7 @@ address,
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    margin-left:120px;
+    margin-left:130px;
 }
 
 
@@ -293,7 +293,7 @@ address,
 
 
 .section-features{
-    margin-left:120px;
+    margin-left:140px;
     /*text-align: center;*/
 }
 .section-features-list{
@@ -310,8 +310,11 @@ address,
     padding-top: 8px;
 }
 
+.services-filter-list{
+    padding: 32px 0px;
+}
 
-.services-filter-list,.section-course-list,.section-webdesign-list{
+.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
 
 
@@ -325,7 +328,7 @@ address,
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-left: 120px;
+    padding-left: 140px;
     /*text-align: center;*/
 
 
@@ -485,7 +488,7 @@ footer{
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-left:120px;
+    margin-left:140px;
 }
 
 
