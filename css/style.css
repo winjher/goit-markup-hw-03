@@ -1,3 +1,4 @@
+
 :root{
     --color-iris: #4D5AE5;
     --color-navyblue: #2E2F42;
@@ -7,10 +8,11 @@
     --color-cloud: #F4F4FD;
     --color-dairy: #FCFCFC;
     --color-slate: #434455;
-    
+   
     --font-family-open-sans:'Open sans',san-serif;
     --font-family-roboto: 'Roboto',san-serif;
 }
+
 
 *, *::before, *::after {
     margin: 0px;
@@ -18,29 +20,34 @@
     box-sizing: border-box;
 }
 
+
 /* added from HW3 container 1158px restricted*/
 .container{
     width: 1158px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
+
 /* added from HW3 global style reset */
-p, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,ul {
     margin: 0px;
     padding: 0px;
   }
 
+
   /* added from HW3 padding 120px push the content to center */
 .section{
     padding: 120px 0px;
 
+
 }
+
 
 body{
     font-family: 'Opens Sans' ,san-serif;
@@ -48,18 +55,23 @@ body{
 }
 
 
+
+
 a {
     text-decoration: none;
 }
+
 
 address {
     font-style: normal;
 }
 
+
 button {
     font-family: inherit;
     border: unset;
 }
+
 
 .header {
     border-bottom: 1px solid var(--color-cornflower);
@@ -67,7 +79,9 @@ button {
     background-color: var(--color-white);
     padding: 24px 0;
 
+
 }
+
 
 .header-container{
     text-align: center;
@@ -77,6 +91,7 @@ button {
     padding-bottom: 24px;
 }
 
+
 /* HW3 */
 address,
 .main-header-nav{
@@ -84,18 +99,22 @@ address,
     margin-left: 120px;
 }
 
+
 /* a[href="/"]{
     color: var(--color-iris);
 } */
+
 
 .logo-webstudio::before{
     content: "WEB";
     color: var(--color-iris);
 }
 
+
 .logo-webstudio{
     color: var(--color-navyblue);
 }
+
 
 .logo-webstudio{
     text-decoration: none;
@@ -108,6 +127,8 @@ address,
 }
 
 
+
+
 .nav-menu-link{
     font-size: 16px;
     font-weight: 500;
@@ -116,18 +137,22 @@ address,
     color: var(--color-slate);
 }
 
+
 .nav-menu-link:active{
     color: var(--color-ocean);
 }
+
 
 .address-link:hover,
 .nav-menu-link:hover{
     color: var(--color-iris);
 }
 
+
 .nav-menu-link:focus{
     color: var(--color-navyblue);
 }
+
 
 /* added from HW3 flexbox and gap of 40px*/
 .nav-menu,
@@ -141,6 +166,7 @@ address,
     /* margin-left:120px; */
 }
 
+
 .address-link{
     font-size: 16px;
     font-weight: 400;
@@ -150,19 +176,23 @@ address,
     margin-left:120px;
 }
 
+
 .address-link:active{
     color: var(--color-slate);
 }
 
+
 .address-link:hover {
     color: var(--color-navyblue);
 }
+
 
 .main-hero{
     background-color: var(--color-navyblue);
     width: 1440px;
     text-align: center;
 }
+
 
 .service-hero-title {
     font-size: 56px;
@@ -176,6 +206,7 @@ address,
     padding: 40px 0px 40px 0px;
 }
 
+
 .service-button-cta {
     background-color: var(--color-ocean);
     color: var(--color-white);
@@ -185,14 +216,16 @@ address,
     border-radius: 4px;
     border: unset;
    /*margin-left: 496px;*/
-    
+   
 }
+
 
 .service-button-cta:hover{
     cursor: pointer;
     color: var(--color-white);
     background-color: var(--color-iris);
 }
+
 
 .services-filter-list{
     width: Hug (586px);
@@ -203,6 +236,7 @@ address,
     margin-left:120px;
     /*text-align: center;*/
 }
+
 
 .filter-btn{
  
@@ -217,15 +251,18 @@ address,
     color: var(--color-iris);
 }
 
+
 .filter-btn:hover{
     background: var(--color-ocean);
     color: var(--color-white);
 }
 
+
 .filter-btn:focus{
     background: var(--color-ocean);
     color: var(--color-white);
 }
+
 
 .filter-btn:active{
     background: var(--color-ocean);
@@ -234,12 +271,14 @@ address,
     color: var(--color-white);
 }
 
+
 .section-gallery-title{
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 80px;
-    padding-left: 0px; 
+    padding-left: 0px;
 }
+
 
 .section-gallery-title,.our-team-title{
     color: var(--color-navyblue);
@@ -252,6 +291,7 @@ address,
     margin-bottom: 40px;
 }
 
+
 .section-features{
     margin-left:120px;
     /*text-align: center;*/
@@ -260,21 +300,26 @@ address,
     text-align: left;
 }
 
+
 .section-item-gallery {
     width: 1440px;
 }
+
 
 .section-features-item-description{
     padding-top: 8px;
 }
 
+
 .services-filter-list,.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
+
 
 }
 .section-application-list{
     padding: 40px;
 }
+
 
 .section-gallery{
     padding-top: 40px;
@@ -283,18 +328,22 @@ address,
     padding-left: 120px;
     /*text-align: center;*/
 
+
 }
+
 
 .our-team-name,
 .section-features-list{
-    color:var(--color-navyblue); 
-    
+    color:var(--color-navyblue);
+   
 }
+
 
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
 }
+
 
 footer{
     width: 1440px;
@@ -303,9 +352,11 @@ footer{
     background: var(--color-navyblue);
 }
 
+
 .container-footer, .text-footer{
     text-align: left;
 }
+
 
 .text-web{
     color: var(--color-iris);
@@ -313,11 +364,13 @@ footer{
     font-family: Raleway;
 }
 
+
 .text-studio{
     color: var(--color-cloud);
     text-decoration: none;
     font-family: Raleway;
 }
+
 
 .text-footer{
     font-size: 16px;
@@ -329,6 +382,7 @@ footer{
     width: 264px;
     padding-top: 8px;
 }
+
 
 .text-footer:hover{
      color: var(--color-iris);  
@@ -347,9 +401,11 @@ footer{
     background-color: var(--color-cloud);
 }
 
+
 .our-team-title{
     margin-top: 80px;
 }
+
 
 /* HW3 */
 .ourteam-list{
@@ -360,10 +416,11 @@ footer{
     /*text-align: center;*/
 }
 
+
 /* HW3  */
 .ourteam-name{
     padding: 8px 0px 0px 0px;
-    
+   
 }
 .ourteam-work{
     padding-top: 8px;
@@ -377,6 +434,8 @@ footer{
 } */
 
 
+
+
 /* HW3 card container*/
 .card{
     background-color: var(--color-white);
@@ -385,19 +444,22 @@ footer{
     text-align: center;
 }
 
+
 .services-filter-list{
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
-    padding-left: 250px; 
+    padding-left: 250px;
 }
+
 
 .section-application-list{
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-left: 0px; 
+    padding-left: 0px;
 }
+
 
 .section-course-list{
     padding-top: 40px;
@@ -412,6 +474,7 @@ footer{
     padding-left: 0px;
 }
 
+
 /* portfolio */
 .services-filter-list,
 .section-application-list,
@@ -423,13 +486,18 @@ footer{
     margin-left:120px;
 }
 
+
 .section-application-item,
 .section-course-item,
 .section-webdesign-item{
     text-align: left;
 }
 
+
 .service-course{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+
+
