@@ -197,6 +197,7 @@ address,
     top: 168px;
     left: 427px;
     gap: 24px;
+    margin-left:120px;
 
 }
 
@@ -389,7 +390,7 @@ footer{
 .ourteam-list{
     padding-top: 40px;
     padding-right: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
     padding-left: 0px;
 }
 
@@ -427,7 +428,7 @@ footer{
     display: flex;
     list-style: none;
     gap: 40px;
-    
+    margin-left:120px;
 }
 
 .section-application-item,
