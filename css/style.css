@@ -163,7 +163,7 @@ address,
     display: flex;
     list-style: none;
     gap: 40px;
-    /* margin-left:120px; */
+    /* margin-left:140px; */
 }
 
 
@@ -173,7 +173,7 @@ address,
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    margin-left:130px;
+    margin-left:140px;
 }
 
 
@@ -338,9 +338,8 @@ address,
 .our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
-   
-}
 
+}
 
 .ourteam-work,
 .section-features-item {
@@ -419,7 +418,6 @@ footer{
     /*text-align: center;*/
 }
 
-
 /* HW3  */
 /*
 .ourteam-name{
@@ -434,12 +432,11 @@ footer{
 .our-team-name{
     padding-top: 32px;
 }
+
 .ourteam-work{
     padding-bottom: 32px;
+    padding-top: 8px;
 } 
-
-
-
 
 /* HW3 card container*/
 .card{
@@ -449,14 +446,12 @@ footer{
     text-align: center;
 }
 
-
 .services-filter-list{
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
     padding-left: 250px;
 }
-
 
 .section-application-list{
     padding-top: 40px;
@@ -488,7 +483,7 @@ footer{
     display: flex;
     list-style: none;
     gap: 40px;
-    margin-left:140px;
+    margin-left:120px;
 }
 
 
