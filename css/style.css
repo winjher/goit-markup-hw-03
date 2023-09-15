@@ -358,13 +358,12 @@ footer{
 
 /* HW3  */
 .ourteam-name{
-    padding: 32px 0px 8px 0px;
+    padding: 8px 0px 0px 0px;
     
 }
 .ourteam-work{
-    padding: 0px 0px 32px 0px;
-}
-
+    padding-top: 8px;
+    padding-bottom: 8px;
 /* .our-team-name same as top{
     padding-top: 32px;
 }
