@@ -21,10 +21,7 @@
 /* added from HW3 container 1158px restricted*/
 .container{
     width: 1158px;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-    
+    margin: 0 auto; 
 }
 
 /* added from HW3 global style reset */
@@ -162,7 +159,7 @@ address,
 
 .main-hero{
     background-color: var(--color-navyblue);
-    width: 1440px;
+    width: 1158px;
 }
 
 .service-hero-title {
@@ -260,15 +257,12 @@ address,
 
 .section-item-gallery {
     width: 1158px;
-    height: 412px;
-    top: 1016px;
-    left: 156px;
+    
 }
 
 .section-item-team{
-    width: 1440px;
-    height: 732px;
-    top: 1548px;    
+    width: 1158px;
+    
     
 }
 
@@ -284,7 +278,10 @@ address,
 }
 
 .section-gallery,.section-ourteam{
-    align-content: center;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 120px;
 
 }
 
@@ -322,7 +319,7 @@ address,
     border: 1px solid #E7E9FC;
 }
 footer{
-    width: 1440px;
+    width: 1158px;
     /* height: 312px; */
     /* top: 2280px; */
     background: var(--color-navyblue);
