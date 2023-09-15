@@ -81,7 +81,7 @@ button {
 address,
 .main-header-nav{
     display: inline-block;
-    margin-left: 140px;
+    margin-left: 120px;
 }
 
 /* a[href="/"]{
@@ -307,19 +307,7 @@ address,
 }
 
 
-/* HW3 */
-.ourteam-work{
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
 
-/* HW3 card container*/
-.container-ourteam{
-    background: var(--color-cloud);
-    border: 1px solid #E7E9FC;
-}
 footer{
     width: 1440px;
     /* height: 312px; */
@@ -359,9 +347,13 @@ footer{
 }
 
 
-
+/* HW3 card container*/
+.container-ourteam{
+    background: var(--color-cloud);
+    border: 1px solid #E7E9FC;
+}
 /* HW3  */
-.our-team-name{
+.ourteam-name{
     padding: 32px 0px 8px 0px;
     
 }
@@ -381,6 +373,10 @@ footer{
     border: 1px solid #E7E9FC;
     border-radius: 0px 0px 8px 8px;
     text-align: center;
+}
+
+.section-ourteam{
+    width:1440px;
 }
 
 /* HW3 */
