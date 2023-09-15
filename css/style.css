@@ -137,8 +137,6 @@ address,
 .ourteam-list {
     display: flex;
     list-style: none;
-    gap: 40px;
-    align-items: center;
 }
 
 .address-link{
