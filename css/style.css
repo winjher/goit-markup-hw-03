@@ -160,6 +160,7 @@ address,
 .main-hero{
     background-color: var(--color-navyblue);
     width: 1440px;
+    
 }
 
 .service-hero-title {
@@ -346,12 +347,6 @@ footer{
      color: var(--color-iris);  
 }
 
-
-/* HW3 card container*/
-.container-ourteam{
-    background: var(--color-cloud);
-    border: 1px solid #E7E9FC;
-}
 /* HW3  */
 .ourteam-name{
     padding: 32px 0px 8px 0px;
@@ -367,7 +362,7 @@ footer{
 .ourteam-work{
     padding-bottom: 32px;
 } */
-
+/* HW3 card container*/
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
@@ -377,12 +372,13 @@ footer{
 
 .section-ourteam{
     width:1440px;
+    background-color: var(--color-cloud);
 }
 
 /* HW3 */
 .ourteam-list{
-    padding-top: 0px;
-    padding-right: 8px;
+    padding-top: 32px;
+    padding-right: 0px;
     padding-bottom: 32px;
     padding-left: 0px;
 }
