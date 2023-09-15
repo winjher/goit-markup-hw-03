@@ -251,7 +251,9 @@ address,
 .our-team-title{
     margin: 80px;
 }
-
+.section-features{
+    margin-left:120px;
+}
 .section-features-list{
     text-align: left;
 }
