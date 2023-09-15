@@ -160,9 +160,9 @@ address,
     color: var(--color-navyblue);
 }
 
-.main-hero,.container{
+.main-hero{
     background-color: var(--color-navyblue);
-    /* width: 1440px; */
+    width: 1440px;
 }
 
 .service-hero-title {
@@ -321,8 +321,8 @@ address,
     background: var(--color-cloud);
     border: 1px solid #E7E9FC;
 }
-footer,.container {
-    /* width: 1440px; */
+footer{
+    width: 1440px;
     /* height: 312px; */
     /* top: 2280px; */
     background: var(--color-navyblue);
