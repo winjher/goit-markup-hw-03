@@ -160,7 +160,7 @@ address,
 .main-hero{
     background-color: var(--color-navyblue);
     width: 1440px;
-    
+    text-align: center;
 }
 
 .service-hero-title {
