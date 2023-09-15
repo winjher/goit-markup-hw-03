@@ -199,8 +199,8 @@ address,
     top: 168px;
     left: 427px;
     gap: 24px;
-    /*margin-left:120px;*/
-    text-align: center;
+    margin-left:120px;
+    /*text-align: center;*/
 }
 
 .filter-btn{
@@ -252,8 +252,8 @@ address,
 }
 
 .section-features{
-   /* margin-left:120px; */
-    text-align: center;
+    margin-left:120px;
+    /*text-align: center;*/
 }
 .section-features-list{
     text-align: left;
@@ -279,8 +279,8 @@ address,
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    /* padding-left: 120px; */
-    text-align: center;
+    padding-left: 120px;
+    /*text-align: center;*/
 
 }
 
@@ -355,8 +355,8 @@ footer{
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 80px;
-    padding-left: 0px;
-    text-align: center;
+    padding-left: 80px;
+    /*text-align: center;*/
 }
 
 /* HW3  */
