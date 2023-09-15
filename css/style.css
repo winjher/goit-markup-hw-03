@@ -159,7 +159,7 @@ address,
 
 .main-hero{
     background-color: var(--color-navyblue);
-    width: 1158px;
+    width: 1440px;
 }
 
 .service-hero-title {
@@ -256,12 +256,12 @@ address,
 }
 
 .section-item-gallery {
-    width: 1158px;
+    width: 1440px;
     
 }
 
 .section-item-team{
-    width: 1158px;
+    width: 1440px;
     
     
 }
@@ -319,7 +319,7 @@ address,
     border: 1px solid #E7E9FC;
 }
 footer{
-    width: 1158px;
+    width: 1440px;
     /* height: 312px; */
     /* top: 2280px; */
     background: var(--color-navyblue);
