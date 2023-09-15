@@ -350,9 +350,9 @@ footer{
 
 /* HW3 */
 .ourteam-list{
-    padding-top: 32px;
+    padding-top: 0px;
     padding-right: 0px;
-    padding-bottom: 32px;
+    padding-bottom: 80px;
     padding-left: 120px;
 }
 
@@ -378,7 +378,6 @@ footer{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
     border-radius: 0px 0px 8px 8px;
-    text-align: center;
 }
 
 .services-filter-list{
