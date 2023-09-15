@@ -74,7 +74,7 @@ button {
     width: 1440px;
     border: 0px, 0px, 1px, 0px;
     border-bottom: 1px solid #E7E9FC;
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
 }
 
 /* HW3 */
@@ -250,9 +250,6 @@ address,
     margin-bottom: 40px;
 }
 
-.our-team-title{
-    margin: 80px;
-}
 .section-features{
     margin-left:120px;
 }
@@ -262,19 +259,16 @@ address,
 
 .section-item-gallery {
     width: 1440px;
-    
 }
 
 .section-item-team{
     width: 1440px;
-    
-    
 }
 
 .section-features-item-description{
     padding-top: 8px;
-    
 }
+
 .services-filter-list,.section-course-list,.section-webdesign-list{
     padding: 40px 0px;
 
@@ -283,16 +277,12 @@ address,
     padding: 40px;
 }
 
-.section-gallery,.section-ourteam{
+.section-gallery{
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 0px;
     padding-left: 120px;
 
-}
-
-.section-ourteam{
-    padding-bottom: 0px;
 }
 
 .our-team-name,
@@ -301,21 +291,18 @@ address,
     
 }
 
-
 .ourteam-work,
 .section-features-item {
     color:var(--color-slate);
 }
-
-
 
 footer{
     width: 1440px;
     /* height: 312px; */
     /* top: 2280px; */
     background: var(--color-navyblue);
-    
 }
+
 .container-footer, .text-footer{
     text-align: left;
 }
@@ -347,6 +334,24 @@ footer{
      color: var(--color-iris);  
 }
 
+
+.section-ourteam{
+    width:1440px;
+    background-color: var(--color-cloud);
+}
+
+.our-team-title{
+    margin: 80px;
+}
+
+/* HW3 */
+.ourteam-list{
+    padding-top: 32px;
+    padding-right: 0px;
+    padding-bottom: 32px;
+    padding-left: 120px;
+}
+
 /* HW3  */
 .ourteam-name{
     padding: 32px 0px 8px 0px;
@@ -362,25 +367,14 @@ footer{
 .ourteam-work{
     padding-bottom: 32px;
 } */
+
+
 /* HW3 card container*/
 .card{
     background-color: var(--color-white);
     border: 1px solid #E7E9FC;
     border-radius: 0px 0px 8px 8px;
     text-align: center;
-}
-
-.section-ourteam{
-    width:1440px;
-    background-color: var(--color-cloud);
-}
-
-/* HW3 */
-.ourteam-list{
-    padding-top: 32px;
-    padding-right: 0px;
-    padding-bottom: 32px;
-    padding-left: 0px;
 }
 
 .services-filter-list{
