@@ -418,20 +418,22 @@ footer{
 
 
 /* HW3  */
+/*
 .ourteam-name{
-    padding: 8px 0px 0px 0px;
+    padding: 24px 0px 0px 0px;
    
 }
 .ourteam-work{
     padding-top: 8px;
     padding-bottom: 8px;
 }
-/* .our-team-name same as top{
+*/
+.our-team-name{
     padding-top: 32px;
 }
 .ourteam-work{
     padding-bottom: 32px;
-} */
+} 
 
 
 
