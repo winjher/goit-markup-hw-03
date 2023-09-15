@@ -118,7 +118,7 @@ address,
 }
 
 .nav-menu-link:active{
-    color: var(--color-slate);
+    color: var(--color-ocean);
 }
 
 .nav-menu-link:hover{
@@ -221,14 +221,17 @@ address,
 
 .filter-btn:hover{
     background: var(--color-ocean)
+    color: var(--color-white)
 }
 
 .filter-btn:focus{
     background: var(--color-ocean)
+    color: var(--color-white)
 }
 
 .filter-btn:active{
     background: var(--color-ocean);
+    color: var(--color-white)
     cursor: pointer;
 }
 
