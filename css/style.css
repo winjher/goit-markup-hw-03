@@ -173,7 +173,7 @@ address,
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    margin-left:140px;
+    margin-left:76px;
 }
 
 
@@ -302,7 +302,7 @@ address,
 
 
 .section-item-gallery {
-    width: 1440px;
+   /* width: 1440px;*/
 }
 
 
@@ -400,7 +400,7 @@ footer{
     padding-right: 0px;
     padding-bottom: 40px;
     padding-left: 0px;
-    margin-right: 120px;
+   /* margin-right: 120px;*/
     background-color: var(--color-cloud);
 }
 
