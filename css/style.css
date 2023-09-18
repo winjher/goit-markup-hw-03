@@ -70,17 +70,15 @@ button {
 }
 
 .header-container{
-    text-align: center;
     border: 0px, 0px, 1px, 0px;
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0;
 }
 
 /* HW3 */
-address,
+.address-link,
 .main-header-nav{
-    display: inline-block;
-    margin-left: 120px;
+    display: flex;
+    justify-content: center;
 }
 
 /* a[href="/"]{
@@ -133,19 +131,8 @@ address,
 {
     display: flex;
     list-style: none;
-    gap:76px;
 
 }
-
-.section-features-list,
-.section-gallery-list,
-.ourteam-list {
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    /* margin-left:140px; */
-}
-
 
 .address-link{
     font-size: 16px;
@@ -156,7 +143,6 @@ address,
     /* margin-left:76px; */
     display: inline-flex;
 }
-
 
 .address-link:active{
     color: var(--color-slate);
@@ -182,9 +168,8 @@ address,
     color: var(--color-white);
     /* HW3 */
     width: 496px;
-    
+    text-align: center;
 }
-
 
 .service-button-cta {
     background-color: var(--color-ocean);
@@ -277,36 +262,16 @@ address,
     text-align: left;
 }
 
-
-
 .section-features-item-description{
     padding-top: 8px;
 }
-
-.services-filter-list{
-    margin: 40px 0px;
-}
-
-.section-course-list,.section-webdesign-list{
-    padding: 40px 0px;
-
-
-}
-.section-application-list{
-    padding: 40px;
-}
-
 
 .section-gallery{
     padding-top: 40px;
     padding-right: 0px;
     padding-bottom: 40px;
     padding-left: 0px;
-    /*text-align: center;*/
-
-
 }
-
 
 .our-team-name,
 .section-features-list{
@@ -319,11 +284,17 @@ address,
     color:var(--color-slate);
 }
 
-
+.section-features-list,
+.section-gallery-list,
+.ourteam-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.container-ourteam{
+    margin: 40px;
+}
 footer{
-   
-    /* height: 312px; */
-    /* top: 2280px; */
     background: var(--color-navyblue);
 }
 
@@ -331,20 +302,17 @@ footer{
     text-align: left;
 }
 
-
 .text-web{
     color: var(--color-iris);
     text-decoration: none;
     font-family: Raleway;
 }
 
-
 .text-studio{
     color: var(--color-cloud);
     text-decoration: none;
     font-family: Raleway;
 }
-
 
 .text-footer{
     font-size: 16px;
@@ -357,32 +325,24 @@ footer{
     padding-top: 8px;
 }
 
-
 .text-footer:hover{
      color: var(--color-iris);  
 }
 
 .section-ourteam{
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-bottom: 40px;
-    padding-left: 0px;
     background-color: var(--color-cloud);
 }
-
 
 .our-team-title{
     margin-top: 80px;
 }
 
-
 /* HW3 */
 .ourteam-list{
-    padding-top: 80px;
-    padding-right: 0px;
-    padding-bottom: 80px;
-    padding-left: 0px;
-    /*text-align: center;*/
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+    margin-left: 0px;
 }
 
 /* HW3  */
@@ -414,31 +374,15 @@ footer{
 }
 
 .services-filter-list{
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 0px;
-    padding-left: 250px;
+    gap: 20px;
+    margin: 40px;
+    /* padding-left: 250px; */
 }
 
-.section-application-list{
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 0px;
-}
-
-
-.section-course-list{
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 0px;
-}
+.section-application-list,
+.section-course-list,
 .section-webdesign-list{
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 0px;
+    gap: 40px;
 }
 
 
@@ -449,8 +393,7 @@ footer{
 .section-webdesign-list{
     display: flex;
     list-style: none;
-    gap: 40px;
-    margin-left:130px;
+
 }
 
 
