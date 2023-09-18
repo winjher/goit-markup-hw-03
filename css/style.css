@@ -156,10 +156,12 @@ button {
 
 .main-hero,.service-hero-title{
     background-color: var(--color-navyblue);
-    text-align: center;
+    margin-left: 496px;
 }
 
-
+.container-hero{
+    text-align: center;
+}
 .service-hero-title {
     font-size: 56px;
     font-weight: 700;
@@ -168,7 +170,7 @@ button {
     color: var(--color-white);
     /* HW3 */
     width: 496px;
-    text-align: center;
+    
 }
 
 .service-button-cta {
@@ -291,9 +293,7 @@ button {
     list-style: none;
     gap: 40px;
 }
-.container-ourteam{
-    margin: 40px;
-}
+
 footer{
     background: var(--color-navyblue);
 }
