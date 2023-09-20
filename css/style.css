@@ -21,7 +21,9 @@
 
 
 /* added from HW3 container 1158px restricted*/
-.main,
+main,footer{
+    min-width:1558px;
+}
 .container{
     width: 1158px;
     margin: 0 auto;
