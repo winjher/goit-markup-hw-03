@@ -21,6 +21,7 @@
 
 
 /* added from HW3 container 1158px restricted*/
+.main,
 .container{
     width: 1158px;
     margin: 0 auto;
