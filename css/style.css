@@ -40,7 +40,9 @@ h6,ul {
     padding: 0px;
   }
 
-
+main{
+    min-width:none;
+}
   /* added from HW3 padding 120px push the content to center */
 .section{
     padding: 120px 0px;
