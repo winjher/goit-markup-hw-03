@@ -21,9 +21,6 @@
 
 
 /* added from HW3 container 1158px restricted*/
-main,footer{
-    min-width:1558px;
-}
 .container{
     width: 1158px;
     margin: 0 auto;
@@ -42,13 +39,8 @@ h6,ul {
     padding: 0px;
   }
 
-main{
-    min-width:none;
-}
+
   /* added from HW3 padding 120px push the content to center */
-.header{
-    padding-left: 200px;
-}
 .section{
     padding: 120px 0px;
 }
@@ -75,14 +67,34 @@ button {
     border-bottom: 1px solid var(--color-cornflower);
     border: 1px;
     background-color: var(--color-white);
-    
-}
-
-.header-container{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    display: flex;
+    padding: 24px;
     border: 0px, 0px, 1px, 0px;
     border-bottom: 1px solid #E7E9FC;
 }
 
+.main-header-nav,
+.nav-menu,.address-menu
+{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+} 
+
+.main-header-nav, .header-container{
+    display: flex;
+    justify-content: center;
+}
+
+address{
+    margin-left:330px;
+}
 
 
 /* a[href="/"]{
@@ -107,14 +119,14 @@ button {
     letter-spacing: 0.03em;
     text-align: left;
 }
+
 .address-link,
 .nav-menu-link{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--color-slate);
-    
+    color: var(--color-slate);    
 }
 
 .nav-menu-link:active{
@@ -130,46 +142,6 @@ button {
     color: var(--color-navyblue);
 }
 
-
-.main-header-nav,
-.nav-menu,.address-menu
-{
-    list-style: none;
-    text-decoration: none;
-} 
-
-
-.address-menu{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    margin-left:330px;
-}
-
-.nav-menu{
-    gap: 40px;
-}
-
-.main-header-nav, .header-container{
-    display: flex;
-    justify-content: center;
-}
-
-.logo-webstudio{
-    padding: 24px;
-}
-
-.nav-menu,
-.address-menu{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-    display: flex;
-    padding: 24px;
-}
-
 .address-link:active{
     color: var(--color-navyblue);
 }
@@ -177,7 +149,6 @@ button {
 .address-link:hover {
     color: var(--color-slate);
 }
-
 
 .main-hero{
     background-color: var(--color-navyblue);
@@ -263,12 +234,6 @@ button {
 }
 
 
-.section-gallery-title{
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 80px;
-    padding-left: 0px;
-}
 
 
 .section-gallery-title,.our-team-title{
