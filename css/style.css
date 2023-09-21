@@ -48,6 +48,7 @@ h6,ul {
 body{
     font-family: 'Opens Sans' ,san-serif;
     font-family: Roboto;
+    min-width:1558px;
 }
 
 a {
@@ -88,7 +89,7 @@ button {
 } 
 
 .main-header-nav, .header-container{
-
+    display: flex;
     justify-content: center;
 }
 
