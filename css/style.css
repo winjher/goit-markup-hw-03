@@ -254,10 +254,7 @@ address{
 }
 
 .section-gallery{
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-bottom: 40px;
-    padding-left: 0px;
+    padding-bottom: 120px;
 }
 
 .our-team-name,
@@ -319,16 +316,6 @@ footer{
 }
 
 
-
-/* HW3 */
-.ourteam-list{
-    margin-top: 80px;
-    margin-right: 0px;
-    margin-bottom: 80px;
-    margin-left: 0px;
-}
-
-
 .our-team-name{
     padding-top: 32px;
 }
@@ -359,7 +346,11 @@ footer{
     padding-bottom: 40px;
 }
 
-
+.application-container,
+.course-container,
+.container-webdesign{
+    flex-wrap: wrap;
+}
 /* portfolio */
 .services-filter-list,
 .section-application-list,
@@ -367,6 +358,7 @@ footer{
 .section-webdesign-list{
     display: flex;
     list-style: none;
+   
 
 }
 
