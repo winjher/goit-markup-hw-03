@@ -347,9 +347,7 @@ footer{
     padding-bottom: 40px;
 }
 
-.application-container,
-.course-container,
-.webdesign-container{
+.section-application-list{
     flex-wrap: wrap;
 }
 
