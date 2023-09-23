@@ -340,9 +340,9 @@ footer{
     padding-left: 250px;
 }
 
-.application-list-item,
-.course-list-item,
-.webdesign-list-item{
+.section-application-list-item,
+.section-course-list-item,
+.section-webdesign-list-item{
     gap: 40px;
     padding-bottom: 40px;
 }
@@ -352,9 +352,9 @@ footer{
 }
 
 .filter-list-item,
-.application-list-item,
-.course-list-item,
-.webdesign-list-item{
+.section-application-list-item,
+.section-course-list-item,
+.section-webdesign-list-item{
     display: flex;
     list-style: none;
 }
