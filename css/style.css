@@ -139,9 +139,9 @@ address{
     color: var(--color-navyblue);
 }
 
-.address-link:active{
+/* .address-link:active{
     color: var(--color-navyblue);
-}
+} */
 
 .address-link:hover {
     color: var(--color-slate);
@@ -208,7 +208,9 @@ address{
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
     color: var(--color-iris);
+
 }
+
 
 
 .filter-btn:hover{
@@ -223,11 +225,12 @@ address{
 }
 
 
+
 .filter-btn:active{
     background: var(--color-ocean);
     color: var(--color-white);
-    cursor: pointer;
-    color: var(--color-white);
+
+   
 }
 
 
@@ -333,6 +336,13 @@ footer{
     text-align: center;
 }
 
+.card-apps{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-cornflower);
+    text-align: left;
+    padding: ;
+}
+
 /* portfolio */
 .filter-list-item{
     gap: 20px;
@@ -352,14 +362,36 @@ footer{
     flex-wrap: wrap;
     display: flex;
     list-style: none;
-    gap: 20px;
-    padding-bottom: 40px;
+    gap: 24px;
+   
+
 }
 
 .service-course{
-    padding-top: 8px;
-    padding-bottom: 8px;
+/* styleName: Header 3; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 16px;
+    padding-top: 16px;
 }
 
 
+.service-offer{
+    /* styleName: Body; */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 16px;
+    padding-bottom: 16px;
+}
 
+.section-application-list{
+    padding-bottom: 120px;
+}
