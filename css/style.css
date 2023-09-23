@@ -347,14 +347,9 @@ footer{
     padding-bottom: 40px;
 }
 
+.filter-list-item,
 .section-application-list{
     flex-wrap: wrap;
-}
-
-.filter-list-item,
-.section-application-list-item,
-.section-course-list-item,
-.section-webdesign-list-item{
     display: flex;
     list-style: none;
 }
