@@ -352,6 +352,8 @@ footer{
     flex-wrap: wrap;
     display: flex;
     list-style: none;
+    gap: 40px;
+    padding-bottom: 40px;
 }
 
 .service-course{
