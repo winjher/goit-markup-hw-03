@@ -343,7 +343,7 @@ footer{
 .section-application-list-item,
 .section-course-list-item,
 .section-webdesign-list-item{
-    gap: 40px;
+    gap: 20px;
     padding-bottom: 40px;
 }
 
@@ -352,7 +352,7 @@ footer{
     flex-wrap: wrap;
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 20px;
     padding-bottom: 40px;
 }
 
